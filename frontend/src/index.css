@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #14323A;
+}
+
+.font-display {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-mono-num {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Receipt-style panel: the signature element used for totals & the "today" card */
+.receipt-panel {
+  background: #FFFFFF;
+  border: 1px solid #E4E0D4;
+  position: relative;
+}
+
+.receipt-panel::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 8px;
+  background-image: repeating-linear-gradient(to right, transparent 0 6px, #E4E0D4 6px 8px);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8D4C8;
+  border-radius: 4px;
+}
