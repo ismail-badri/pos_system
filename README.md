@@ -187,3 +187,5 @@ Then in Android Studio: `Build → Build Bundle(s)/APK(s) → Build APK(s)`. Not
 - Employee management screen for admins
 - Multi-store support, online payments, SMS notifications
 # store-system
+# el-hamdi-store
+# el-hamdi-store
